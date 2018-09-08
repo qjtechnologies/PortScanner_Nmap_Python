@@ -7,5 +7,3 @@ nm = nmap.PortScanner()
 nm.scan('11.11.3.200-220','1-100')
 
 print(nm.all_hosts())
-
-

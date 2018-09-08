@@ -10,7 +10,7 @@ ip_range = raw_input("Enter IP(11.11.3.205)/IP Range(11.11.3.200-220): ")
 port_range = raw_input("Enter Port(80) or Port Range(1-100): ")
 
 #Scanning Port as provided in arguments
-nm.scan('11.11.3.200-220','1-100')
+nm.scan(ip_range,port_range)
 
 #Iterating all hosts with up status
 for host in nm.all_hosts():
